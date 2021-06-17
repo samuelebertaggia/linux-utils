@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+xset -dpms
+xset s blank
+xset s expose
+xset s 600 300

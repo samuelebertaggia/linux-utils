@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+xargs curl > /etc/hosts << URL
+https://raw.githubusercontent.com\
+/StevenBlack/hosts/master/alternates\
+/gambling-porn/hosts
+URL

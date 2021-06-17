@@ -1,0 +1,6 @@
+alias la='ll -A'
+alias ll='ls -l'
+alias ls='ls -h --color'
+alias grep='grep -i --color'
+alias less='less -IM'
+alias reset='clear'

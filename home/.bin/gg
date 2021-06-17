@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+find . -type d -name .git | while
+read path
+do
+  path=$(dirname "$path")
+  printf '>>> %-56.56s <<<\n' "$(basename "$path")"
+  git -C "$path" "$@"
+  printf '=%.s' $(seq 64)
+  echo
+done

@@ -1,0 +1,1 @@
+eval "$(cat $HOME/.profile $HOME/.bashrc)"
